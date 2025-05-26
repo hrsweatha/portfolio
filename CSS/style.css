@@ -1,0 +1,335 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./1.avif);
+    background-size: cover;
+
+    
+    
+    
+}
+.one{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 35%;
+    padding: 10px;
+
+
+
+}
+.navbar{
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -50px;
+
+}
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -30px;
+    width: 10%;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.background2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+     
+}
+.profile{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./IMG-20250521-WA0000.jpg);
+    background-position: center;
+    
+}
+
+.main-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    
+}
+.cont1{
+    margin-top: -15px;
+}
+.cont2{
+    margin-top: 90px;
+    
+}
+.skill-bar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 5px;
+    padding: 2px;
+}
+.skill-percentage-bar1{
+    background-color: lightblue;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-percentage-value{
+    color: black;
+    margin-right: 5px;
+}
+.SK1{
+    color: black;
+    margin-left: 5px;
+}
+.SK2{
+    color: black;
+
+}
+.skill-percentage-bar2{
+    background-color: lightblue;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-percentage-bar3{
+    background-color: lightblue;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-percentage-container{
+    width: 100%;
+}
+.comp{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border-radius: 5px;
+    border-color: blue;
+}
+.back4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: black;
+    background-color: lightblue;
+    border-radius: 5px;
+    transform: scale(20px);
+    transition: 10seconds;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
+  
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
+  
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tes1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.test2{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+}
+.test3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.test4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50vh;
+  margin-left: 20px;
+  justify-content: space-between;
+
+}
+
+  
+  
+
+
+@media(max-width:1200px){
+    .one{
+        display: none;
+    }
+    .navbar{
+        justify-content: center;
+
+    }
+    .two{
+        margin-top: 120px;
+    }
+    .main-content{
+        width: 90%;
+    }
+    .para{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+    }
+    .ser1{
+        margin-left: 10px;
+    }
+    .hr1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1px;
+        font-style: italic;
+        justify-content: no space-around;
+        vertical-align: middle;
+        font-size: small
+    }
+    .flex-container{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-small;
+        font: caption;
+    }
+    .test3{
+        justify-content: center;
+    }
+    .test2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+}
+@media(max-width:600px){
+    .flex-container{
+        font-family:'Times New Roman', Times, serif;
+        font-size: xx-small;
+        font: smaller;
+        font-size: -10px;
+        
+    }
+    .test2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1px;
+        margin-left: 160px;
+        
+        
+    }
+    .tes1{
+        width: 100%;
+        height: 100vh;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+
+    }
+    
+    
+}
