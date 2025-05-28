@@ -1,16 +1,18 @@
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100vh;
+    
 
 }
 .background{
     height: 100vh;
     width: 100%;
-    background-image: url(https://ui-themez.smartinnovates.net/items/daniels/img/bg.jpg);
+    background-image: url(../images/multi-layers-gray-blue-dark-texture-3d-papercut-layers-in-gradient-banner-abstract-paper-cut-art-background-design-for-website-template-topography-map-concept-or-smooth-origami-paper-cut-vec.jpg);
     background-size: cover;
+    color: white;
 }
 .one{
     display: flex;
@@ -60,23 +62,23 @@ body{
 
 
 .background2{
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   
      
 }
-.profile{
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    background-image: url(./IMG-20250521-WA0000.jpg);
-    background-position: center;
-    
+.profile img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;    
 }
 
 .main-content{
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -87,6 +89,8 @@ body{
 }
 .cont2{
     margin-top: 90px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
     
 }
 .skill-bar{
@@ -97,8 +101,17 @@ body{
     margin: 5px;
     padding: 2px;
 }
+.skill-percentage-bar0{
+    background-color: burlywood;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
 .skill-percentage-bar1{
-    background-color: lightblue;
+    background-color: burlywood;
     height: 100%;
     width: 90%;
     display: flex;
@@ -118,7 +131,7 @@ body{
 
 }
 .skill-percentage-bar2{
-    background-color: lightblue;
+    background-color: burlywood;
     height: 100%;
     width: 90%;
     display: flex;
@@ -126,7 +139,7 @@ body{
     justify-content: space-between;
 }
 .skill-percentage-bar3{
-    background-color: lightblue;
+    background-color: burlywood;
     height: 100%;
     width: 70%;
     display: flex;
@@ -160,7 +173,7 @@ button{
     margin-top: 40px;
     margin-left: 10px;
     color: black;
-    background-color: lightblue;
+    background-color: bisque;
     border-radius: 5px;
     transform: scale(20px);
     transition: 10seconds;
@@ -170,7 +183,7 @@ button{
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   
 }
 
@@ -181,7 +194,7 @@ button{
   text-align: center;
   line-height: 75px;
   font-size: 30px;
-  height: 300vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -247,6 +260,7 @@ button{
   justify-content: space-between;
 
 }
+
 
   
   
