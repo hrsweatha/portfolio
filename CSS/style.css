@@ -104,7 +104,7 @@ body{
     padding: 2px;
 }
 .skill-percentage-bar0{
-    background-color: greenyellow;
+    background-color: orange;
     height: 100%;
     width: 50%;
     display: flex;
