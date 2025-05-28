@@ -75,7 +75,8 @@ body{
     width: 500px;
     height: 600px;
     object-fit: cover; 
-    border-radius: 20px;   
+    
+     
 }
 
 .main-content{
@@ -112,7 +113,7 @@ body{
 
 }
 .skill-percentage-bar1{
-    background-color: burlywood;
+    background-color: blue;
     height: 100%;
     width: 90%;
     display: flex;
