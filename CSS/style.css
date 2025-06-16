@@ -2,15 +2,31 @@
     box-sizing: border-box;
     
 }
+:root{
+    /* CSS HEX */
+--space-cadet: #22223bff;
+--ultra-violet: #4a4e69ff;
+--rose-quartz: #9a8c98ff;
+--pale-dogwood: #c9ada7ff;
+--isabelline: #f2e9e4ff;
+
+/* CSS HSL */
+--space-cadet: hsla(240, 27%, 18%, 1);
+--ultra-violet: hsla(232, 17%, 35%, 1);
+--rose-quartz: hsla(309, 6%, 58%, 1);
+--pale-dogwood: hsla(11, 24%, 72%, 1);
+--isabelline: hsla(21, 35%, 92%, 1);
+
+
+}
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: #131E33;
-background: linear-gradient(90deg,rgba(19, 30, 51, 1) 0%, rgba(82, 95, 125, 1) 45%, rgba(165, 170, 184, 1) 79%);
-    
+    overflow-x: hidden;
+    background: var(--space-cadet);
 
 }
 .background{
@@ -77,9 +93,11 @@ background: linear-gradient(90deg,rgba(19, 30, 51, 1) 0%, rgba(82, 95, 125, 1) 4
 .background2{
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin: 40px 0;
+    
 }
 .skills-section{
     width: 50%;
@@ -175,6 +193,7 @@ button{
     font-size: 15px;
     letter-spacing: 1.1px;
     text-align: justify;
+    color: aliceblue;
 }
 .mn1{
     margin-left: 10px;
@@ -189,6 +208,7 @@ button{
             display: flex;
             width: 100%;
             height: 20vh;
+            
     
         }
 
@@ -206,7 +226,8 @@ button{
             font-size: 30px;
             align-items: center;
             justify-content: center;
-            background-color:azure;
+            background-color: var(--ultra-violet);
+            color: #f1f1f1;
             
         }
         
@@ -229,9 +250,11 @@ button{
             border-style: double;
             height: 30vh;
             font-style: italic;
-            background-color:azure;
+            background-color: var(--ultra-violet);
+            color: #f1f1f1;
             
         }
+        
         .box1:hover{
             box-shadow: 9px 4px 58px 4px rgba(43,34,34,1);
             -webkit-box-shadow: 9px 4px 58px 4px rgba(43,34,34,1);
@@ -270,7 +293,7 @@ button{
 
         }
         .background-personal{
-            background-image: url(../images/hd_background_image.png);
+            background-image: url(../images/elevated-view-laptop-earphones-crumpled-papers-pencil-blank-spiral-notepad-frame-black-background_23-2148080331.avif);
             height: 100vh;
             width: 100%;
             background-repeat: no-repeat;
@@ -280,45 +303,52 @@ button{
         .address{
             display: flex;
             flex-direction: column;
-            align-items: end;
-            width: 100%;
+            align-items: center;
+            width: 50%;
             
         }
         .contact{
             display: flex;
             flex-direction: column;
-            align-items: end;
-            width: 100%;
+            align-items: center;
+            width: 50%;
 
         }
         .Email{
             display: flex;
             flex-direction: column;
-            align-items: end;
-            width: 100%;
+            align-items: center;
+            width: 50%;
 
         }
         .Linkedin{
             display: flex;
             flex-direction: column;
-            align-items: end;
-            width: 100%;
+            align-items: center;
+            width: 50%;
             
 
         }
         .overall{
             display: flex;
             flex-direction: column;
-            align-items: end;
+            align-items: center;
             justify-content: space-between;
-            width: 80%;
+            width: 100%;
             color:bisque;
             font-style: italic;
             font-size: 20px;
+            margin-left: 150px;
             
             
         }
-        
+        .abt{
+            color: aliceblue;
+        }
+        .cont1{
+            color: aliceblue;
+
+        }
         
         
         
@@ -377,6 +407,7 @@ button{
     
     .ser1{
         margin-left: 10px;
+        
     }
     .hr1{
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -391,14 +422,24 @@ button{
         font-size: xx-small;
         font: caption;
     }
+    .background2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .profile img{
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        height: 100vh;
+        height: 500px;
         background-size: cover;
+        
        
+    }
+    .profile{
+        height: 500px;
+        width: 300px;
     }
     .para{
         font-size: 32px;
@@ -406,7 +447,14 @@ button{
         margin-right: 15px;
         font-style:inherit;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: start;
+        width: 100%;
         
+    }
+    .skills-section{
+        width: 80%;
+        
+        font-size: 8px;
     }
     .colab-button{
         width: 90%;
@@ -430,7 +478,30 @@ button{
         font-weight: 500;
         height: 30vh;
     }
-    
+    .Button-sector{
+        margin-top: -800px;
+    }
+    .container1{
+        margin-top: -130px;
+        height: 40vh;
+        
+
+    }
+    .background-personal{
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+    }
+    .overall{
+        color:red
+    }
+    .para{
+        text-align: justify;
+        font-size: 20px;
+        
+    }
     
 }
 @media(max-width:600px){
@@ -455,10 +526,11 @@ button{
     }
     .cont1{
         font-size: 20px;
+        color: aliceblue;
     }
     .para{
-        font-size: 15px;
-        letter-spacing: ;
+        font-size: 10px;
+        text-align: justify;
     }
     .ser1{
         font-size: 25px;
@@ -470,7 +542,7 @@ button{
 
     }
     .box{
-        font-size: 20px;
+        font-size: 12px;
     }
     .box1{
         width: 15%;
@@ -485,6 +557,27 @@ button{
 
 
     }
+    .colab-button{
+        width: 90%;
+        height: 10vh;
+    }
+    .Button-sector{
+        margin-top: -240px;
+    }
+    .edu1{
+        font-size: 10px;
+    }
+    .cert1{
+        font-size: 10px;
+
+    }
+    .pro1{
+        font-size: 10px;
+    }
+    .overall{
+        font-size: 15px;
+    }
+    
     
     
 }
